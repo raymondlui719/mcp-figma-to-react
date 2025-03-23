@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "figma-to-react": {
+      "command": "node",
+      "args": ["path/to/mcp-figma-to-react/dist/index.js", "--transport=stdio"],
+      "env": {
+        "FIGMA_API_TOKEN": "your_figma_api_token_here"
+      },
+      "disabled": false,
+      "alwaysAllow": []
+    }
+  }
+}
