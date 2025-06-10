@@ -6,7 +6,11 @@ import express from 'express';
 import { FigmaClient } from './figma-client.js';
 import { registerFigmaTools } from './figma-tools.js';
 import { ComponentGenerator } from './component-generator.js';
-import { registerReactTools } from './figma-react-tools.js';
+import { registerReactTools } from './figma-react-tools.js";
+
+import dotenv from "dotenv";
+// Load environment variables from .env file
+dotenv.config();
 
 // Get Figma API token from environment variable
 const FIGMA_API_TOKEN = process.env.FIGMA_API_TOKEN;
